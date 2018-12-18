@@ -1,0 +1,153 @@
+
+.choose{
+  width: 72vw;
+  height:auto;
+  display: block;
+  float: left;
+  padding-left: 40px;
+  position: relative;
+  margin-top: 140px;
+}
+.choose-photo{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.show-img{
+  position: absolute;
+  left: 2vw;
+  /* float: left; */
+  display: inline-block;
+  width: 92%;
+  height: auto;
+  padding: 30px 10px 24px 10px;
+
+}
+/* .img-hair{
+  opacity: 1;
+  z-index: 1;
+}
+.img-eyes{
+  opacity: 0;
+  z-index: 2;
+}
+.img-cheeks{
+  opacity: 0;
+  z-index: 3;
+}
+.img-hands{
+  opacity: 0;
+  z-index: 4;
+} */
+
+
+.arrow{
+  width: 20px;
+  padding-top: 200px;
+}
+.description{
+  width:90%;
+  height:auto;
+  display: inline-block;
+  left: 4vw;
+  top: 50vh;
+  padding-left: 40px;
+  position: absolute;
+}
+
+.choose-button {
+  width: 180px;
+  height: 40px;
+  display: block;
+  float: right;
+  margin: 20px 50px 0 0;
+  border-radius: 5px;
+  background-color: grey;
+  padding-left:
+  transition: width 2s;
+  position: absolute;
+  top: 65vh;
+  left: 7vw;
+}
+
+.choose-button:hover{
+  background-color: #F86FB4;
+  color: #F86FB4;
+  /* width: 600px; */
+}
+
+.choose-button p{
+  font-size: 15px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+
+.about-menu a{
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
+.about-menu{
+  display: block;
+  float: right;
+  width: 14vw;
+  height: auto;
+  padding-top: 30px;
+  margin-right: 90px;
+  margin-top: 140px;
+}
+.about-menu h3{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.about-menu p{
+  font-size:14px;
+  font-weight: 200;
+  margin-top: 0;
+  padding-left: 25px;
+
+}
+.about-menu div{
+  border-bottom: 1px solid #9b9b9b;
+  background-color: white;
+  transition: background-color 1s;
+}
+/* .about-menu a{
+  background-color: white;
+  transition: background-color 2s;
+
+} */
+.about-menu div:hover{
+  background-color: #F8E71C;
+  color: black;
+}
+/* .about-menu a :hover{
+  background-color: #d6d6d6;
+  color: black;
+} */
+
+.active{
+  color:black;
+}
+
+.active h3{
+  font-weight: bold;
+}
+.active p{
+  font-weight: 400;
+
+}
+
+.eyes:hover ~.img-eyes{
+  opacity: 1;
+}
+
+.face

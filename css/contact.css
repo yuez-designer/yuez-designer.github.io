@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Shadows+Into+Light');
+
+.contactiner{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 140px 200px 10px 200px;
+  display: grid;
+  grid-template-columns: 24vw 24vw auto;
+  grid-gap: 36px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin-top: 140px;
+  color: #F86FB4;
+  font-size: 28px;
+}
