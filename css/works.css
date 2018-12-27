@@ -42,12 +42,12 @@
   margin: 0 0 0 1vw;
 }
 .grid-container h4{
-  font-family: 'Josefin Sans', sans-serif;
-
-  margin: 20px 0 0 15px;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 500;
+  margin: 12px 0 0 15px;
 }
 .grid-container p{
-  font-family: 'Abel', sans-serif;
+  font-family: 'Avenir', sans-serif;
 
   margin:0;
   font-size: 14px;
