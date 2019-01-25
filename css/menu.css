@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Shadows+Into+Light');
-@keyframes name-rotate {
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400,700|Open+Sans:300,400,700|PT+Sans|Roboto+Condensed:300,400|Roboto:300,400');
+/* @keyframes name-rotate {
     0%   {transform: rotate(60deg);}
     25%  {
           transform: rotate(-45deg);}
@@ -9,80 +9,71 @@
           transform: rotate(-15deg);}
     100% {
           transform: rotate(0deg);}
+} */
+
+
+body{
+  margin:0;
+  padding: 50px 60px;;
 }
 
-
-
-.banner{
+.bar{
   width: 100%;
-  height: 130px;
-  background-color: white;
-  border-bottom: 1px solid #F86FB4;
-  position: fixed;
+  height: 120px;
   top: 0;
+  padding:0 30px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
 }
 .logo{
-  display: inline-block;
-  width: 75px;
+  display:block;
+  width: 250px;
   height: 75px;
-  margin: 30px;
+  margin: 0;
   float:left;
 
-}
-.banner a{
-  text-decoration: none;
-  color: #F86FB4;
-  transition: color 0.6s;
-
-}
-.title-container{
-  width: auto;
-  height: 130px;
-  display:inline-block;
-  float:left;
-  margin-left: 35vw;
-  text-align: center;
-  transition: transform 0.5s;
-}
-.title-container:hover{
-    animation-name: name-rotate;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-
-
-
-}
-.title{
-  font-family: 'Shadows Into Light', cursive;
-  font-weight:500;
+  font-family: 'Fira', sans-serif;
   font-size: 36px;
-  margin: 40px auto 40px auto;
-  text-align: center;
-  color: #222;
-
+  font-weight: 900;
+  color: black;
+}
+.bar a{
+  text-decoration: none;
 }
 
-.menu{
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 18px;
-  width:auto;
-  height: auto;
-  display: inline-block;
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  display: block;
   float: right;
-  margin: 40px;
-}
-.menu div{
-  display: inline-block;
-  float: left;
-  margin:20px;
+  font-weight: 300;
+  color: #555;
+
+  margin: 30px 0 0 20px ;
 }
 
-.active a{
-  color: #F84FB4;
-  font-weight: bold;
-}
 
-.menu div:hover a{
-    color: #F8E71C;
-;
+
+.grid-container {
+  margin:0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+.grid-container img{
+  width:25vw;
+  height:auto;
+  left:0;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 0 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222;
+  text-align: center;
 }
