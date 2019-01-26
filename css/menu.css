@@ -77,3 +77,8 @@ body{
   color: #222;
   text-align: center;
 }
+
+.active
+{
+  font-weight: bold;
+}

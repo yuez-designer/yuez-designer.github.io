@@ -1,14 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Shadows+Into+Light');
 
 .contactiner{
-  font-family: 'Josefin Sans', sans-serif;
-  margin: 140px 200px 10px 200px;
-  display: grid;
-  grid-template-columns: 24vw 24vw auto;
-  grid-gap: 36px;
+  margin: 1vw 5vw 5vw 5vw;
   /* background-color: #2196F3; */
-  padding: 10px;
-  margin-top: 140px;
-  color: #F86FB4;
+
+}
+
+.contactiner div{
+  display: block;
+  float: left;
+  margin-left: 8vw;
+  width: 20vw;
+
+}
+
+img{
+  width:21vw;
+  height:auto;
+  display:block;
+  float: left;
+
+}
+
+.button{
+  font-family: 'Josefin Sans', sans-serif;
+  float: right;
   font-size: 28px;
+}
+h5{
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  margin: 0;
+  line-height: 22px;
+}
+a{
+  text-decoration: none;
+  color: #F86FB4;
 }
