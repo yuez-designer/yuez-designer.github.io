@@ -60,3 +60,14 @@ img{
 .back:hover{
   background-color: #F86FB4;
 }
+
+.footer
+{
+  padding-top: 45px;
+  padding-bottom: 0px;
+  width: 64vw;
+  height: 60px;
+  /* background-color: red; */
+  text-align: center;
+  color: gray;
+}
