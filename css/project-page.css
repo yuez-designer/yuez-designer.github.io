@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 
 
@@ -32,8 +33,13 @@ h5{
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  font-weight: 300;
+
+  line-height: 25px;
+  /* text-indent: 40px; */
+
   /* text-indent:2em; */
 
 }

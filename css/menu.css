@@ -100,3 +100,19 @@ h5{
   text-align: center;
   color: gray;
 }
+
+.tag_bar{
+  padding: 0 20px;
+
+}
+.tag{
+  display: inline-block;
+  padding: 0px 20px 20px 20px;
+}
+
+.tag a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+
+}
