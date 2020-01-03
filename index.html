@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>works</title>
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/test_menu.css">
   </head>
   <body>
 
     <div class="bar">
-      <a class="logo" href="index.html">
-        <p>YUE ZHANG</p>
-      </a>
+      <div class="logo">
+        <a href="index.html">
+          <p>YUE ZHANG</p>
+        </a>
+        <button type="button" class="button" name="button" id="designer">proactive designer</button>
+        <button type="button" class="button  button_x" name="button" id="plus">×</button>
+        <button type="button" class="button" name="button" id="creator">passionate creator</button>
+
+      </div>
 
       <a class="menu bar_about" href="contact.html">
         <p>ABOUT</p>
@@ -18,103 +24,171 @@
       <!-- <a class="menu bar_work" href="#">
         <p>WORK</p>
       </a> -->
+      <a class="menu bar_project" href="index.html">
+        <p>EXPERIMENTS</p>
+      </a>
       <a class="menu bar_project active" href="index.html">
-        <p>PROJECT</p>
+        <p>PROJECTS</p>
       </a>
 
     </div>
 
-    <div class="tag_bar">
-      <div class="tag all_tag active">
-        <a href="index.html"><p>ALL</p></a>
-      </div>
-      <div class="tag ux_tag">
-        <a href="index_ux.html"><p>UX DESIGN</p></a>
-      </div>
-      <div class="tag vr_tag">
-        <a href="index_vr.html"><p>VR</p></a>
-      </div>
-      <div class="tag in_tag">
-        <a href="index_in.html"><p>INSTALLATION</p></a>
-      </div>
-      <div class="tag game_tag">
-        <a href="index_game.html"><p>GAME</p></a>
-
-      </div>
-    </div>
 
     <div class="grid-container">
-      <div class="grid-item ux">
+
+      <!-- create -->
+
+      <div class="grid-item create ">
         <a href="pages/replastic.html">
-          <img src="image/replastic.png" alt="">
+            <img src="image/chicken.png" alt="" onMouseOver="this.src='image/chicken.gif'" onMouseOut="this.src='image/chicken.png'">
         </a>
-        <p>REPLASTIC</p>
+        <p>Fan Chicken Warrior</p>
+        <p class="type">Game Design, Physical Computing</p>
+        <p class = "date">NOV. 2019</p>
       </div>
-      <div class="grid-item vr">
+
+      <div class="grid-item create ">
         <a href="pages/working-machine.html">
-          <img src="image/machine.png" alt="">
+
+          <img src="image/pedal.png" alt="" onMouseOver="this.src='image/pedal.gif'" onMouseOut="this.src='image/pedal.png'">
         </a>
-        <p>WORKING MACHINE</p>
+        <p>What Can Petals Do?</p>
+        <p class="type">Projection Mapping, eTextile, Animation</p>
+        <p class = "date">DEC. 2019</p>
       </div>
-      <div class="grid-item installation">
+      <div class="grid-item create ">
+        <a href="pages/machine2.html" >
+          <img src="image/botany.png" alt="" onMouseOver="this.src='image/botany.gif'" onMouseOut="this.src='image/botany.png'">
+        </a>
+        <p>Winter Botanic Garden</p>
+        <p class="type"> eTextile, Embroidery</p>
+        <p class = "date">DEC. 2019</p>
+      </div>
+      <div class="grid-item create ">
+        <a href="pages/strangers-globe.html">
+          <img src="image/kiss2.jpg" alt="" onMouseOver="this.src='image/kiss.gif'" onMouseOut="this.src='image/kiss2.jpg'">
+        </a>
+        <p>Stranger's Globe</p>
+        <p class="type"> Installation, Physical Computing</p>
+        <p class = "date">OCT. 2018</p>
+      </div>
+      <div class="grid-item create ">
+        <a href="pages/little-black-bag.html">
+          <!-- <img src="image/bag.png" alt="" onMouseOver="this.src='image/bag.gif'" onMouseOut="this.src='image/bag.png'"> -->
+            <img src="image/machine2.png" alt="" onMouseOver="this.src='image/workingmachinegif.gif'" onMouseOut="this.src='image/machine2.png'">
+        </a>
+        <p>Working Machine</p>
+        <p class="type"> VR, Motion Capture</p>
+        <p class = "date">APR. 2019</p>
+      </div>
+
+
+      <!-- design -->
+
+      <div class="grid-item design show ">
+        <a href="pages/replastic.html">
+          <img src="image/replastic.png" alt="" onMouseOver="this.src='image/bag.gif'" onMouseOut="this.src='image/replastic.png'">
+        </a>
+        <p>Replastic</p>
+        <p class="type"> Service Design, UX Design</p>
+        <p class = "date">MAR. 2019</p>
+      </div>
+
+      <div class="grid-item design show">
+        <a href="pages/little-black-bag.html">
+          <img src="image/bag.png" alt="" onMouseOver="this.src='image/bag.gif'" onMouseOut="this.src='image/bag.png'">
+        </a>
+        <p>Little Black Bag</p>
+        <p class="type"> Product Design, Inclusive Design</p>
+        <p class = "date">DEC. 2018</p>
+      </div>
+
+      <div class="grid-item design show">
         <a href="pages/rongyin.html">
           <img src="image/rongyin.png" alt="">
         </a>
-        <p>融音 PRESS, MIX & PLAY</p>
-      </div>
-      <div class="grid-item installation">
-        <a href="pages/strangers-globe.html">
-          <img src="image/1.jpg" alt="">
-        </a>
-        <p>STRANGER'S GLOBE</p>
-      </div>
-      <div class="grid-item ux">
-        <a href="pages/little-black-bag.html">
-          <img src="image/2.jpg" alt="">
-        </a>
-        <p>LITTLE BLACK BAG</p>
-      </div>
-      <div class="grid-item game">
-        <a href="pages/toto.html">
-          <img src="image/3.jpg" alt="">
-        </a>
-        <p>GAME: TOTO</p>
+        <p>Press, Mix, Play</p>
+        <p class="type"> Installation Design, Experience Design</p>
+        <p class = "date">FEB. 2019</p>
       </div>
 
-      <!-- <div class="grid-item">
-        <a href="pages/toms-adventure.html">
-          <img src="image/4.jpg" alt="">
-        </a>
-        <p>TOM'S ADVENTURE</p>
-      </div> -->
-      <div class="grid-item vr">
+      <div class="grid-item design show">
         <a href="pages/the-final-piece.html">
-          <img src="image/5.png" alt="">
+          <img src="image/piece.png" alt="" onMouseOver="this.src='image/piece.gif'" onMouseOut="this.src='image/piece.png'">
         </a>
-        <p>THE FINAL PIECE</p>
+        <p>The Final Piece</p>
+        <p class="type"> VR Experience, Narrative Design</p>
+        <p class = "date">AUG. 2016</p>
       </div>
-      <div class="grid-item ux">
+
+      <div class="grid-item design show">
         <a href="pages/babies.html">
-          <img src="image/baby.png" alt="">
+          <img src="image/babies.png" alt="" onMouseOver="this.src='image/bag.gif'" onMouseOut="this.src='image/babies.png'">
         </a>
         <p>BABiES</p>
+        <p class="type"> Service Design, UX Design</p>
+        <p class = "date">APR. 2016</p>
       </div>
-      <div class="grid-item installation">
-        <a href="pages/lavendern.html">
-          <img src="image/7.png" alt="">
-        </a>
-        <p>LAVENDERN</p>
-      </div>
-      <div class="grid-item ux vr game installation">
-          <img src="image/blank.png" alt="">
-        <p></p>
-      </div>
+
 
     </div>
 
     <div class="footer">
-      <h5>© 2019 YUE ZHANG All Rights Reserved.</h5>
+      <h4>© 2019 YUE ZHANG All Rights Reserved.</h4>
     </div>
+
+    <script type="text/javascript">
+      var designer = document.getElementById('designer');
+      var creator = document.getElementById('creator');
+
+      var dsg = document.getElementsByClassName('design');
+      var cre = document.getElementsByClassName('create');
+
+      designer.addEventListener('click',function(){
+        for(var i = 0; i < dsg.length; i++){
+          dsg[i].style.cssText = 'display:block';
+        }
+
+        for (var i = 0; i < cre.length; i++) {
+          cre[i].style.cssText = 'display:none';
+        }
+
+        designer.setAttribute('style', 'font-weight: 900 !important; color:#9b45e4 !important ');
+        creator.setAttribute('style', 'font-weight: 400 !important; color: #f9b165 !important');
+
+        // designer.setAttribute('style', '');
+        // creator.setAttribute('style', '');
+      },false)
+
+      creator.addEventListener('click',function(){
+        for(var i = 0; i < dsg.length; i++){
+          dsg[i].style.cssText = 'display:none';
+        }
+
+        for (var i = 0; i < cre.length; i++) {
+          cre[i].style.cssText = 'display:block';
+        }
+        designer.setAttribute('style', 'font-weight: 400 !important; color: #f9b165 !important');
+        creator.setAttribute('style', 'font-weight: 900 !important; color:#9b45e4 !important');
+
+        // designer.setAttribute('style', '');
+        // creator.setAttribute('style', '');
+      },false)
+
+
+
+    </script>
+
+    <!-- <script LANGUAGE="JavaScript">
+
+
+    function openwin() {
+
+    window.open ("page.html", "newindow", "height=100, width=400, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no")
+    }
+
+
+    </script> -->
 
 
 

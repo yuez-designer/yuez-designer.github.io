@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400,700|Open+Sans:300,400,700|PT+Sans|Roboto+Condensed:300,400|Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif:300,300i,400,400i,700i&display=swap');
 
 .contactiner{
-  margin: 1vw 5vw 3vw 5vw;
+  margin: 1vw 40px 3vw 40px;
   /* background-color: #2196F3; */
   height:40vw;
 
@@ -14,42 +16,51 @@
   display: block;
 
   height:auto;
-  margin-left: 6vw;
+  margin-left: 5vw;
 
 }
 
 img{
-  width:21vw;
+  width:24vw;
   height:auto;
   display:block;
   float: left;
 
 }
 
-.button{
-  font-family: 'Josefin Sans', sans-serif;
+.resource{
+  font-family: 'Inria Serif', serif;
   float: right;
   font-size: 28px;
   margin:0;
-  width:20vw;
+  width:15vw;
+
+  line-height: 28px;
+  border-bottom: 1px solid white;
+
+}
+.resource p:hover{
+  border-bottom: 1px solid #9b45e4;
 }
 .introduction{
-  width: 25vw;
+  width: 26vw;
 }
-.button div{
+.resource div{
   margin:0;
 }
 h5{
-  font-size: 15px;
-  color: black;
+  font-family: 'Lato', sans-serif;
+
+  font-size: 16px;
+  color: #454545;
   font-weight: 400;
   margin: 0;
-  line-height: 22px;
+  line-height: 28px;
   text-align: left;
 }
 a{
   text-decoration: none;
-  color: #F86FB4;
+  color: #9b45e4;
 }
 
 .contactiner p{
