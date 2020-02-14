@@ -2,20 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:300,300i,400,400i,700i&display=swap');
 
+
 .contactiner{
   margin: 1vw 40px 3vw 40px;
   /* background-color: #2196F3; */
-  height:40vw;
-
+  width: 100vw;
+  height:100%;
+  display: block;
+  overflow:hidden;
 }
 
 
 .contactiner div{
   float: left;
-
-  display: block;
-
   height:auto;
+  display: block;
   margin-left: 5vw;
 
 }
@@ -23,8 +24,6 @@
 img{
   width:24vw;
   height:auto;
-  display:block;
-  float: left;
 
 }
 
@@ -41,6 +40,13 @@ img{
 }
 .resource p:hover{
   border-bottom: 1px solid #9b45e4;
+}
+
+.my_photo{
+  width:24vw;
+  height:40vw;
+  display:block;
+  float: left;
 }
 .introduction{
   width: 26vw;
@@ -77,9 +83,10 @@ a{
 {
   padding-top: 45px;
   padding-bottom: 0px;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   /* background-color: red; */
   text-align: center;
   color: gray;
+  display: block;
 }
